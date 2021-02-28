@@ -1,0 +1,6 @@
+﻿  game.cpp
+d:\2021c\sanziqi_game\sanziqi_game\game.cpp(8): warning C4305: “=”: 从“int”到“char”截断
+d:\2021c\sanziqi_game\sanziqi_game\game.cpp(8): warning C4309: “=”: 截断常量值
+  test.cpp
+  正在生成代码...
+  sanziqi_game.vcxproj -> D:\2021C\sanziqi_game\Debug\sanziqi_game.exe
