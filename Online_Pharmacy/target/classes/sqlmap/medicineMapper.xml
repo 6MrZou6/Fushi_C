@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace:命名空间，值对应的是DAO层接口 -->
+<mapper namespace="com.it.zyx.dao.MedicineDao">
+    <!-- select标签：查询语句，
+        id:唯一，值是接口中的方法名
+         resultType：查询结果与哪个实体类进行映射，写类的全类名，这里因为在SqlMapConfig.xml中配置了别名，
+                     所以这里的值是类名-->
+    <select id="findAllTypes" resultType="MedicineType">
+            select * from medicinetype
+        </select>
+    <select id="findAllMedicine" resultType="Medicine">
+            select * from medicine
+        </select>
+    <select id="findMedicineByTypes" resultType="Medicine">
+            select * from medicine where type_id=#{typeId}
+        </select>
+    <select id="findMedicineByMname" resultType="Medicine">
+            select * from medicine where name like '%${value}%'
+        </select>
+    <select id="findMedicineByMid" resultType="Medicine">
+            select * from medicine where id=#{medicineId}
+        </select>
+</mapper>
