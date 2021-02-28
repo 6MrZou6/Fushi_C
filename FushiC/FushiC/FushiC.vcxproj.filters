@@ -99,5 +99,35 @@
     <ClCompile Include="求第n个斐波那契数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="sizeof和strlen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="冒泡排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="操作符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="统计一个整数在二进制存储中1的个数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="结构体.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="隐式类型转换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="指针.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数组元素的地址.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数组作业.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="指针作业.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

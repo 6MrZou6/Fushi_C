@@ -5,7 +5,7 @@ int main() {
 	int a = 3, b = 5;
 
 	printf("交换前a=%d,b=%d\n", a, b);
-	//法一  引入第三个变量
+	//法一  引入第三变量
 	//int c;
 	//c = a;
 	//a = b;

@@ -1,6 +1,7 @@
 #define  _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 #include <string.h>
+//法一：计数器
 //int my_strlen(char* str) {
 //	int count = 0;
 //	while (*str != '\0') {
@@ -10,20 +11,31 @@
 //	return count;
 //}
 
-//不创建临时变量，使用递归的方法
+//法二：不创建临时变量，使用递归的方法
 //把大事化小
 //"zoudeng"
 //1+"oudeng"
 //1+1+"udeng"
 //...
 //1+my_strlen(str+1)
+//int my_strlen(char* str) {
+//	if (*str != '\0') {
+//	return	1+my_strlen(str + 1);
+//	}
+//	else {
+//		return 0;
+//	}
+//}
+
+//法三：指针
 int my_strlen(char* str) {
-	if (*str != '\0') {
-	return	1+my_strlen(str + 1);
+	char* start = str;
+	char* end = str;
+	while (*end!='\0')
+	{
+		end++;
 	}
-	else {
-		return 0;
-	}
+	return end - start;
 }
 int main() {
 	//模拟实现一个strlen函数
