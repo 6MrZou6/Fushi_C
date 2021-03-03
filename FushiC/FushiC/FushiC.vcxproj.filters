@@ -129,5 +129,26 @@
     <ClCompile Include="指针作业.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="统计两个整数二进制位中不同位的个数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="统计一个整数二进制序列中所有奇数位和偶数位并打印出来.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="逆序打印字符串数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="计算一个正整数每一位相加的和.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="计算n的k次方.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数组越界访问的死循环问题.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="两个字符串数组的拷贝.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
